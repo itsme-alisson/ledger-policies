@@ -1,1 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Terms of use for Ledger, a private, self-hosted personal finance application.">
+  <title>Ledger — Terms of Use</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+    body { margin: 0; background: #f6f8f7; color: #213a32; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 24px 72px; }
+    header { border-bottom: 1px solid #cbd7d0; padding-bottom: 24px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 12px 0; }
+    h2 { font-size: 1.65rem; margin-top: 44px; }
+    h3 { font-size: 1.08rem; margin-top: 28px; }
+    a { color: #126247; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 24px; }
+    section { scroll-margin-top: 24px; }
+    li { margin-bottom: 8px; }
+    .meta { color: #53695e; }
+    .draft { padding: 14px 18px; border: 1px solid #946100; background: #fff4d6; color: #573900; }
+    footer { border-top: 1px solid #cbd7d0; margin-top: 40px; padding-top: 20px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #14241e; color: #e5eee8; }
+      a { color: #8bdec0; }
+      .meta { color: #b1c5b9; }
+      header, footer { border-color: #3a5144; }
+    }
+    @media print { body { background: white; color: black; } main { padding: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="meta">Ledger Personal Finance</p>
+    <h1 id="page-title">Terms of Use</h1>
+    <p>A private, self-hosted application for personal budgeting and expense tracking.</p>
+    <p class="meta">Last updated: <time datetime="2026-09-30">30 September 2026</time></p>
+    <nav aria-label="Policy navigation">
+      <a href="policies.html#privacy">Privacy policy</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Replace the contact placeholder and remove this notice before publication. -->
+  <p class="draft"><strong>Draft:</strong> the operator must add a contact email and review this page before publication.</p>
+
+  <section id="terms" aria-labelledby="page-title">
+    <h2>Private personal use</h2>
+    <p>Ledger is a personal budgeting and expense-tracking tool for its operator. It is not offered as a public banking or financial advisory service. Only the operator's own accounts may be connected under this installation's personal-use setup.</p>
+
+    <h2>Bank authorization</h2>
+    <p>Bank connections require authorization through the bank and Enable Banking. Their applicable terms and access restrictions also apply. Authorization can expire or be revoked, and reconnection may be necessary. Ledger does not provide payment initiation or hold funds.</p>
+
+    <h2>Accuracy and availability</h2>
+    <p>Imported data depends on the bank and provider. Records can be delayed, incomplete or subsequently updated. Categories, recurring-payment suggestions and forecasts are estimates that may need correction. Verify important amounts against official bank records. Ledger's reports are for personal organization and are not financial, investment or tax advice.</p>
+    <p>The application and banking connections may be unavailable during outages, maintenance or changes to provider access. There is no guaranteed synchronization time, availability or completeness of bank history.</p>
+
+    <h2>Operator responsibilities</h2>
+    <p>The operator is responsible for protecting the device, login credentials, banking key and backups; keeping the application updated; reviewing imported records; and complying with the bank and provider's conditions. The public policy repository must not contain financial records or application secrets.</p>
+
+    <h2>Ending use and changes</h2>
+    <p>The operator may stop using Ledger and revoke bank access at any time. Previously imported records and backups remain until separately deleted as described in the <a href="policies.html#privacy">Privacy Policy</a>. These notices should be updated when the installation's data handling or permitted use changes, with the revision date shown on this page.</p>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>Operator: Alisson (GitHub: <a href="https://github.com/itsme-alisson">itsme-alisson</a>)</p>
+    <p>Email: <strong>CONTACT_EMAIL_REQUIRED</strong></p>
+  </footer>
+</main>
+</body>
+</html>
 
